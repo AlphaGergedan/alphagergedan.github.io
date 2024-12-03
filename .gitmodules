@@ -1,3 +1,3 @@
-[submodule "themes/hugo-texify3"]
-	path = themes/hugo-texify3
-	url = https://github.com/michaelneuper/hugo-texify3.git
+[submodule "themes/hugo-texify3-minimal-blog"]
+	path = themes/hugo-texify3-minimal-blog
+	url = git@github.com:AlphaGergedan/minimalistic-hugo-blog-theme.git
