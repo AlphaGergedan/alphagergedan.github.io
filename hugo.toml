@@ -1,0 +1,72 @@
+baseURL = "https://alphagergedan.github.io/"
+disqusShortname = ""
+enableGitInfo = true
+enableRobotsTXT = true
+hasCJKLanguage = true
+languageCode = "en"
+rssLimit = 10
+theme = "hugo-texify3-minimal-blog"
+title = "Ata's blog"
+
+[markup]
+defaultMarkdownHandler = "goldmark"
+
+  [markup.goldmark.renderer]
+  unsafe = true
+
+  [markup.highlight]
+  noClasses = false
+
+  [markup.tableOfContents]
+  endLevel = 6
+  ordered = false
+  startLevel = 2
+
+[pagination]
+pagerSize = 5
+
+[taxonomies]
+tags = "tags"
+#categories = "categories"
+
+[params]
+title="Atamert Rahma"
+author = "Atamert Rahma"
+copyrightYear = "2024"
+description = "My academic/personal blog"
+footnote = """
+"""
+customCSS = []
+customJS = []
+dateFormat = "2 January 2006"
+dateFormatHomePage = "2 Jan, 2006"
+emphasisWithDots = true
+toc = true
+since = "2024"
+showWordCount = true
+showReadingTime = true
+rootFontSize = "100%"
+math = true
+enableDuckDuckGoSearchBox = false
+numberedSubtitles = true
+
+[params.commentEngine]
+#code = """
+#"""
+
+[params.buymeacoffee]
+#code = """
+#"""
+
+[params.sharingbuttons]
+facebook = false
+twitter = false
+email = false
+linkedin = false
+reddit = false
+whatsapp = false
+hackernews = false
+telegram = false
+
+[params.links]
+github = "https://github.com/alphagergedan"

@@ -4,7 +4,7 @@ title = "Training HNNs without backpropagation"
 tags = [ "Machine Learning", "Paper" ]
 draft = true
 type = "posts"
-summary = "Sampling the hidden weights of Hamiltonian neural networks using data-agnostic and data-driven algorithms to approximate Hamiltonian functions."
+summary = "Sampling the hidden weights of Hamiltonian neural networks using data-agnostic and data-driven algorithms to approximate Hamiltonian functions. In this post we also implement HNNs and sampled HNNs to approximate a simple Hamiltonian system."
 math = true
 [params]
 image = "images/posts/training-hnns-without-backprop/thumbnail.png"
