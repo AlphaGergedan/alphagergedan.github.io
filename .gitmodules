@@ -1,3 +1,6 @@
 [submodule "themes/hugo-texify3-minimal-blog"]
 	path = themes/hugo-texify3-minimal-blog
 	url = git@github.com:AlphaGergedan/minimalistic-hugo-blog-theme.git
+[submodule "code/train-hnns-without-backprop/swimnetworks"]
+	path = code/train-hnns-without-backprop/swimnetworks
+	url = git@github.com:AlphaGergedan/swimnetworks.git
