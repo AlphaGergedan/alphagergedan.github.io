@@ -2,7 +2,6 @@
 date = "2024-12-01"
 title = "Training HNNs without backpropagation"
 tags = [ "Machine Learning", "Paper" ]
-draft = true
 type = "posts"
 summary = "Sampling the hidden weights of Hamiltonian neural networks using data-agnostic and data-driven algorithms to approximate Hamiltonian functions. In this post we also implement HNNs and sampled HNNs to approximate a simple Hamiltonian system."
 math = true
@@ -18,7 +17,7 @@ in this line of work! If you are not familiar with HNNs or sampling neural netwo
 this post also gives you an intuition behind their concepts and which problems they address.
 This post also contains code examples that I encourage you to code along and have fun!
 You can find the code in
-<a class="link" style="text-decoration: none;" href="https://github.com/AlphaGergedan/alphagergedan.github.io/code/train-hnns-without-backprop/" target="_blank">notebooks</a>
+<a class="link" style="text-decoration: none;" href="https://github.com/AlphaGergedan/alphagergedan.github.io/tree/master/code/train-hnns-without-backprop" target="_blank">notebooks</a>
 as reference. Note that the code provided here is for explanation purposes, you can checkout the code
 link below to reproduce the experiments from the paper.
 
@@ -760,7 +759,7 @@ distribution. We called this version the Approximate-SWIM (**A-SWIM**). Let's al
 implement sampled HNNs using the
 <a class="link" style="text-decoration: none;" href="https://gitlab.com/felix.dietrich/swimnetworks" target="_blank">swimnetworks</a>
 package. See the
-<a class="link" style="text-decoration: none;" href="https://github.com/AlphaGergedan/alphagergedan.github.io/code/train-hnns-without-backprop/" target="_blank">notebooks</a>
+<a class="link" style="text-decoration: none;" href="https://github.com/AlphaGergedan/alphagergedan.github.io/tree/master/code/train-hnns-without-backprop" target="_blank">notebooks</a>
 folder for the forked repository.
 
 <details close>
