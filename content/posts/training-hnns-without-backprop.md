@@ -706,7 +706,7 @@ on the following sampling algorithms:
   <img style="width: 300px; height: auto; object-fit: contain;" alt="Data-driven sampling where weights are placed at large gradients" src="../../images/posts/training-hnns-without-backprop/swim-weight-sampling.png">
 </div>
 
-<div class="img-caption">Data-agnostic and data-driven sampling of the weights are visualized[^swim].</div>
+<div class="img-caption">Data-agnostic and data-driven sampling of the weights are visualized [SWIM].</div>
 
 > [!QUESTION] Can we utilize sampling to quickly train accurate HNNs?
 
